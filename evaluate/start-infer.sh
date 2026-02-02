@@ -1,0 +1,1 @@
+vllm serve /models-infer/qwen3-32b-after-rl/  --served-model-name "Qwen3-32B" --tensor-parallel-size 8 --gpu-memory-utilization 0.95    --max_model_len 32768  --trust-remote-code --port 1025
